@@ -1,0 +1,336 @@
+{
+    "Monday": [
+        {
+            "horarioInicial": "07:25",
+            "horarioFinal": "08:40",
+            "atividade": "Aula de Estruturas de Dados 2",
+            "enviada": false
+        },
+        {
+            "horarioInicial": "08:40",
+            "horarioFinal": "09:25",
+            "atividade": "Intervalo para descanso e socialização",
+            "enviada": false
+        },
+        {
+            "horarioInicial": "09:25",
+            "horarioFinal": "10:40",
+            "atividade": "Tempo livre para atividades pessoais ou trabalho no projeto de pesquisa da plataforma digital para a universidade",
+            "enviada": false
+        },
+        {
+            "horarioInicial": "10:40",
+            "horarioFinal": "12:00",
+            "atividade": "Tempo para desenvolvimento do projeto de pesquisa da plataforma digital para a universidade",
+            "enviada": false
+        },
+        {
+            "horarioInicial": "12:00",
+            "horarioFinal": "13:00",
+            "atividade": "Almoço",
+            "enviada": false
+        },
+        {
+            "horarioInicial": "13:00",
+            "horarioFinal": "15:00",
+            "atividade": "Tempo para trabalhar no projeto do site full stack para a empresa de marketing digital",
+            "enviada": false
+        },
+        {
+            "horarioInicial": "15:00",
+            "horarioFinal": "17:00",
+            "atividade": "Tempo para trabalhar no projeto do site full stack para a empresa de marketing digital",
+            "enviada": false
+        },
+        {
+            "horarioInicial": "17:00",
+            "horarioFinal": "18:00",
+            "atividade": "Tempo livre para descanso ou atividades pessoais",
+            "enviada": false
+        },
+        {
+            "horarioInicial": "18:00",
+            "horarioFinal": "21:00",
+            "atividade": "Tempo para produzir, mixar e masterizar uma música",
+            "enviada": false
+        },
+        {
+            "horarioInicial": "21:00",
+            "horarioFinal": "22:00",
+            "atividade": "Jantar e tempo livre",
+            "enviada": false
+        }
+    ],
+    "Tuesday": [
+        {
+            "horarioInicial": "06:00",
+            "horarioFinal": "07:00",
+            "atividade": "Preparação matinal, tomar café da manhã, higiene pessoal",
+            "enviada": false
+        },
+        {
+            "horarioInicial": "07:00",
+            "horarioFinal": "07:25",
+            "atividade": "Deslocamento para a faculdade",
+            "enviada": false
+        },
+        {
+            "horarioInicial": "07:25",
+            "horarioFinal": "08:40",
+            "atividade": "Aula de Fundamentos da Computação",
+            "enviada": false
+        },
+        {
+            "horarioInicial": "08:40",
+            "horarioFinal": "09:25",
+            "atividade": "Intervalo para descanso e socialização",
+            "enviada": false
+        },
+        {
+            "horarioInicial": "09:25",
+            "horarioFinal": "10:40",
+            "atividade": "Aula de Inglês 2",
+            "enviada": false
+        },
+        {
+            "horarioInicial": "10:40",
+            "horarioFinal": "12:00",
+            "atividade": "Tempo livre para atividades pessoais ou trabalho no projeto de pesquisa da plataforma digital para a universidade",
+            "enviada": false
+        },
+        {
+            "horarioInicial": "12:00",
+            "horarioFinal": "13:00",
+            "atividade": "Almoço",
+            "enviada": false
+        },
+        {
+            "horarioInicial": "13:00",
+            "horarioFinal": "15:00",
+            "atividade": "Tempo livre para atividades pessoais ou trabalho no projeto de pesquisa da plataforma digital para a universidade",
+            "enviada": false
+        },
+        {
+            "horarioInicial": "15:00",
+            "horarioFinal": "18:00",
+            "atividade": "Tempo para trabalhar no projeto do aplicativo mobile de Agenda",
+            "enviada": false
+        },
+        {
+            "horarioInicial": "18:00",
+            "horarioFinal": "21:00",
+            "atividade": "Tempo para produzir, mixar e masterizar uma música",
+            "enviada": false
+        },
+        {
+            "horarioInicial": "21:00",
+            "horarioFinal": "22:00",
+            "atividade": "Jantar e tempo livre",
+            "enviada": false
+        }
+    ],
+    "Wednesday": [
+        {
+            "horarioInicial": "06:00",
+            "horarioFinal": "07:00",
+            "atividade": "Preparação matinal, tomar café da manhã, higiene pessoal",
+            "enviada": false
+        },
+        {
+            "horarioInicial": "07:00",
+            "horarioFinal": "07:25",
+            "atividade": "Deslocamento para a faculdade",
+            "enviada": false
+        },
+        {
+            "horarioInicial": "07:25",
+            "horarioFinal": "08:40",
+            "atividade": "Aula de Comportamento Organizacional",
+            "enviada": false
+        },
+        {
+            "horarioInicial": "08:40",
+            "horarioFinal": "09:25",
+            "atividade": "Intervalo para descanso e socialização",
+            "enviada": false
+        },
+        {
+            "horarioInicial": "09:25",
+            "horarioFinal": "12:00",
+            "atividade": "Tempo livre para atividades pessoais ou trabalho no projeto de pesquisa da plataforma digital para a universidade",
+            "enviada": false
+        },
+        {
+            "horarioInicial": "12:00",
+            "horarioFinal": "13:00",
+            "atividade": "Almoço",
+            "enviada": false
+        },
+        {
+            "horarioInicial": "13:00",
+            "horarioFinal": "15:00",
+            "atividade": "Tempo livre para atividades pessoais ou trabalho no projeto de pesquisa da plataforma digital para a universidade",
+            "enviada": false
+        },
+        {
+            "horarioInicial": "15:00",
+            "horarioFinal": "17:00",
+            "atividade": "Tempo livre para atividades pessoais ou trabalho no projeto de pesquisa da plataforma digital para a universidade",
+            "enviada": false
+        },
+        {
+            "horarioInicial": "17:00",
+            "horarioFinal": "18:00",
+            "atividade": "Tempo livre para descanso ou atividades pessoais",
+            "enviada": false
+        },
+        {
+            "horarioInicial": "18:00",
+            "horarioFinal": "21:00",
+            "atividade": "Tempo para produzir, mixar e masterizar uma música",
+            "enviada": false
+        },
+        {
+            "horarioInicial": "21:00",
+            "horarioFinal": "22:00",
+            "atividade": "Jantar e tempo livre",
+            "enviada": false
+        }
+    ],
+    "Thursday": [
+        {
+            "horarioInicial": "06:00",
+            "horarioFinal": "07:00",
+            "atividade": "Preparação matinal, tomar café da manhã, higiene pessoal",
+            "enviada": false
+        },
+        {
+            "horarioInicial": "07:00",
+            "horarioFinal": "07:25",
+            "atividade": "Deslocamento para a faculdade",
+            "enviada": false
+        },
+        {
+            "horarioInicial": "07:25",
+            "horarioFinal": "09:25",
+            "atividade": "Tempo livre para atividades pessoais ou trabalho no projeto de pesquisa da plataforma digital para a universidade",
+            "enviada": false
+        },
+        {
+            "horarioInicial": "09:25",
+            "horarioFinal": "10:40",
+            "atividade": "Aula de Metodologia Científica",
+            "enviada": false
+        },
+        {
+            "horarioInicial": "10:40",
+            "horarioFinal": "12:00",
+            "atividade": "Tempo livre para atividades pessoais ou trabalho no projeto de pesquisa da plataforma digital para a universidade",
+            "enviada": false
+        },
+        {
+            "horarioInicial": "12:00",
+            "horarioFinal": "13:00",
+            "atividade": "Almoço",
+            "enviada": false
+        },
+        {
+            "horarioInicial": "13:00",
+            "horarioFinal": "15:00",
+            "atividade": "Aula de Redes 2",
+            "enviada": false
+        },
+        {
+            "horarioInicial": "15:00",
+            "horarioFinal": "17:00",
+            "atividade": "Tempo livre para atividades pessoais ou trabalho no projeto do aplicativo mobile de Agenda",
+            "enviada": false
+        },
+        {
+            "horarioInicial": "17:00",
+            "horarioFinal": "18:00",
+            "atividade": "Tempo livre para descanso ou atividades pessoais",
+            "enviada": false
+        },
+        {
+            "horarioInicial": "18:00",
+            "horarioFinal": "21:00",
+            "atividade": "Tempo para produzir, mixar e masterizar uma música",
+            "enviada": false
+        },
+        {
+            "horarioInicial": "21:00",
+            "horarioFinal": "22:00",
+            "atividade": "Jantar e tempo livre",
+            "enviada": false
+        }
+    ],
+    "Friday": [
+        {
+            "horarioInicial": "06:00",
+            "horarioFinal": "07:00",
+            "atividade": "Preparação matinal, tomar café da manhã, higiene pessoal",
+            "enviada": false
+        },
+        {
+            "horarioInicial": "07:00",
+            "horarioFinal": "07:25",
+            "atividade": "Deslocamento para a faculdade",
+            "enviada": false
+        },
+        {
+            "horarioInicial": "07:25",
+            "horarioFinal": "09:25",
+            "atividade": "Aula de Estruturas de Dados 2",
+            "enviada": false
+        },
+        {
+            "horarioInicial": "09:25",
+            "horarioFinal": "10:40",
+            "atividade": "Tempo livre para atividades pessoais ou trabalho no projeto de pesquisa da plataforma digital para a universidade",
+            "enviada": false
+        },
+        {
+            "horarioInicial": "10:40",
+            "horarioFinal": "12:00",
+            "atividade": "Tempo livre para atividades pessoais ou trabalho no projeto de pesquisa da plataforma digital para a universidade",
+            "enviada": false
+        },
+        {
+            "horarioInicial": "12:00",
+            "horarioFinal": "13:00",
+            "atividade": "Almoço",
+            "enviada": false
+        },
+        {
+            "horarioInicial": "13:00",
+            "horarioFinal": "15:00",
+            "atividade": "Aula de Redes 2",
+            "enviada": false
+        },
+        {
+            "horarioInicial": "15:00",
+            "horarioFinal": "15:25",
+            "atividade": "Intervalo",
+            "enviada": false
+        },
+        {
+            "horarioInicial": "15:25",
+            "horarioFinal": "18:00",
+            "atividade": "Tempo livre para atividades pessoais ou trabalho no projeto do site full stack para a empresa de marketing digital",
+            "enviada": false
+        },
+        {
+            "horarioInicial": "18:00",
+            "horarioFinal": "21:00",
+            "atividade": "Tempo para produzir, mixar e masterizar uma música",
+            "enviada": false
+        },
+        {
+            "horarioInicial": "21:00",
+            "horarioFinal": "22:00",
+            "atividade": "Jantar e tempo livre",
+            "enviada": false
+        }
+    ]
+}
