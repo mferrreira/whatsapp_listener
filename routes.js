@@ -1,13 +1,9 @@
-const { DatePicker  } = require('./src/scripts/dt_picker')
-const { MoviePicker } = require('./src/scripts/mv_picker')
 const { Pensamentos } = require('./src/scripts/pts_manager')
-const { Graus       } = require('./src/scripts/Graus')
+const { Cronograma } = require('./src/scripts/Cronograma')
 
 const route = {
     '/pensamentos': new Pensamentos(),
-    '/filme':       new MoviePicker(),
-    '/date':        new DatePicker(),
-    '/graus':       new Graus(),
+    '/cronograma': new Cronograma()
 }
 
 function routes(inputs, id) {

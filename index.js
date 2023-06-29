@@ -1,6 +1,5 @@
 const { Client, LocalAuth } = require('whatsapp-web.js')
 const { routes } = require('./routes.js')
-const { cronograma } = require('./src/scripts/Cronograma.js')
 
 const qrcode = require('qrcode-terminal')
 const cron = require('node-cron')
@@ -17,36 +16,31 @@ client.on('qr', (qr) => {
     console.log('QR CODE RECEIVED!', qsr)
 })
 
-client.on('authenticated', session => {
-    console.log(session)
-})
-
 client.on('ready', async () => {
     console.log('Client is ready!')
 
     const chat = await client.getChatById('553891446498-1487381077@g.us')
-    let ultimaMensagem = chat.lastMessage
 
     // todos os horários do cron como "*" indica que a função será checada a cada minuto
+
     cron.schedule('* * * * *', async () => {
 
-        const res = cronograma()
+        const res = routes('/cronograma', chat)
 
-        if (res) {
-            try {await ultimaMensagem.delete(false)}
-            catch {console.log('não tem mensagem')}
+        if (res !== undefined) {
+            try {
+                await chat.lastMessage.delete()
+                await chat.sendMessage(res)
+            }
+            catch(e) {console.log('não tem mensagem', e)}
         }
-        const mensagemEnviada = await chat.sendMessage(res)
-        ultimaMensagem = mensagemEnviada
+
     })
 })
 
-
-
-
 client.on('message_create', async message => {
 
-    console.log(message._data.id.remote)
+    console.log(`${message._data.notifyName} (${message._data.id.remote}): ${message._data.body}`)
 
     try {
         if (message.body[0] === '/') {
@@ -56,13 +50,12 @@ client.on('message_create', async message => {
             let res
             let inputs = `${message.body}`
             let id = message._data.id.remote
-            let messageId = message.id.id
 
             res = await routes(inputs, id)
 
-            if (res)
-                await message.reply(res)
-                message.delete(false)
+            if (res) await message.reply(res)
+            
+            message.delete(false)
         }
     } catch (e) {
         console.log('deu erro: \n\n', e)

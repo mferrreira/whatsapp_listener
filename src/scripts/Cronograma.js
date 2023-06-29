@@ -23,18 +23,14 @@ class Cronograma {
                     return atividade.atividade
                 }
         }
+        return undefined
+    }
+
+    run() {
+        const atividadeAtual = this.getAtividade()
+        if(atividadeAtual) return atividadeAtual
+        return undefined
     }
 }
 
-const crono = new Cronograma
-
-function cronograma() {
-
-    const atividadeAtual = crono.getAtividade()
-
-    if(atividadeAtual) {
-        return atividadeAtual
-    }
-}
-
-exports.cronograma = cronograma
+exports.Cronograma = Cronograma
