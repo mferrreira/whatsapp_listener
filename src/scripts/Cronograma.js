@@ -26,4 +26,15 @@ class Cronograma {
     }
 }
 
-exports.Cronograma = Cronograma
+const crono = new Cronograma
+
+function cronograma() {
+
+    const atividadeAtual = crono.getAtividade()
+
+    if(atividadeAtual) {
+        return atividadeAtual
+    }
+}
+
+exports.cronograma = cronograma

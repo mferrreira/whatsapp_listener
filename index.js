@@ -1,5 +1,6 @@
 const { Client, LocalAuth } = require('whatsapp-web.js')
-const { routes, cronograma } = require('./routes.js')
+const { routes } = require('./routes.js')
+const { cronograma } = require('./src/scripts/Cronograma.js')
 
 const qrcode = require('qrcode-terminal')
 const cron = require('node-cron')
@@ -37,7 +38,6 @@ client.on('ready', async () => {
         }
         const mensagemEnviada = await chat.sendMessage(res)
         ultimaMensagem = mensagemEnviada
-        
     })
 })
 
@@ -45,6 +45,8 @@ client.on('ready', async () => {
 
 
 client.on('message_create', async message => {
+
+    console.log(message._data.id.remote)
 
     try {
         if (message.body[0] === '/') {
