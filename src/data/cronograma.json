@@ -9,19 +9,19 @@
         {
             "horarioInicial": "08:40",
             "horarioFinal": "09:25",
-            "atividade": "Intervalo para descanso e socialização",
+            "atividade": "Tempo Livre",
             "enviada": false
         },
         {
             "horarioInicial": "09:25",
             "horarioFinal": "10:40",
-            "atividade": "Tempo livre para atividades pessoais ou trabalho no projeto de pesquisa da plataforma digital para a universidade",
+            "atividade": "Estudar Python / React Native / Fazer Atividades",
             "enviada": false
         },
         {
             "horarioInicial": "10:40",
             "horarioFinal": "12:00",
-            "atividade": "Tempo para desenvolvimento do projeto de pesquisa da plataforma digital para a universidade",
+            "atividade": "Trabalhar em alguma coisa do Display",
             "enviada": false
         },
         {
@@ -33,13 +33,13 @@
         {
             "horarioInicial": "13:00",
             "horarioFinal": "15:00",
-            "atividade": "Tempo para trabalhar no projeto do site full stack para a empresa de marketing digital",
+            "atividade": "Estudar alguma Disciplina",
             "enviada": false
         },
         {
             "horarioInicial": "15:00",
             "horarioFinal": "17:00",
-            "atividade": "Tempo para trabalhar no projeto do site full stack para a empresa de marketing digital",
+            "atividade": "Estudar alguma Disciplina",
             "enviada": false
         },
         {
@@ -83,7 +83,7 @@
         {
             "horarioInicial": "08:40",
             "horarioFinal": "09:25",
-            "atividade": "Intervalo para descanso e socialização",
+            "atividade": "Tempo Livre",
             "enviada": false
         },
         {
@@ -95,7 +95,7 @@
         {
             "horarioInicial": "10:40",
             "horarioFinal": "12:00",
-            "atividade": "Tempo livre para atividades pessoais ou trabalho no projeto de pesquisa da plataforma digital para a universidade",
+            "atividade": "Estudar Python / React Native / Fazer Atividades",
             "enviada": false
         },
         {
@@ -107,7 +107,7 @@
         {
             "horarioInicial": "13:00",
             "horarioFinal": "15:00",
-            "atividade": "Tempo livre para atividades pessoais ou trabalho no projeto de pesquisa da plataforma digital para a universidade",
+            "atividade": "Estudar Python / React Native / Fazer Atividades",
             "enviada": false
         },
         {
@@ -151,13 +151,13 @@
         {
             "horarioInicial": "08:40",
             "horarioFinal": "09:25",
-            "atividade": "Intervalo para descanso e socialização",
+            "atividade": "Tempo Livre",
             "enviada": false
         },
         {
             "horarioInicial": "09:25",
             "horarioFinal": "12:00",
-            "atividade": "Tempo livre para atividades pessoais ou trabalho no projeto de pesquisa da plataforma digital para a universidade",
+            "atividade": "Estudar Python / React Native / Fazer Atividades",
             "enviada": false
         },
         {
@@ -169,13 +169,13 @@
         {
             "horarioInicial": "13:00",
             "horarioFinal": "15:00",
-            "atividade": "Tempo livre para atividades pessoais ou trabalho no projeto de pesquisa da plataforma digital para a universidade",
+            "atividade": "Estudar Python / React Native / Fazer Atividades",
             "enviada": false
         },
         {
             "horarioInicial": "15:00",
             "horarioFinal": "17:00",
-            "atividade": "Tempo livre para atividades pessoais ou trabalho no projeto de pesquisa da plataforma digital para a universidade",
+            "atividade": "Estudar Python / React Native / Fazer Atividades",
             "enviada": false
         },
         {
@@ -213,7 +213,7 @@
         {
             "horarioInicial": "07:25",
             "horarioFinal": "09:25",
-            "atividade": "Tempo livre para atividades pessoais ou trabalho no projeto de pesquisa da plataforma digital para a universidade",
+            "atividade": "Estudar Python / React Native / Fazer Atividades",
             "enviada": false
         },
         {
@@ -225,7 +225,7 @@
         {
             "horarioInicial": "10:40",
             "horarioFinal": "12:00",
-            "atividade": "Tempo livre para atividades pessoais ou trabalho no projeto de pesquisa da plataforma digital para a universidade",
+            "atividade": "Estudar Python / React Native / Fazer Atividades",
             "enviada": false
         },
         {
@@ -243,7 +243,7 @@
         {
             "horarioInicial": "15:00",
             "horarioFinal": "17:00",
-            "atividade": "Tempo livre para atividades pessoais ou trabalho no projeto do aplicativo mobile de Agenda",
+            "atividade": "Estudar alguma coisa / Descansar",
             "enviada": false
         },
         {
@@ -287,13 +287,13 @@
         {
             "horarioInicial": "09:25",
             "horarioFinal": "10:40",
-            "atividade": "Tempo livre para atividades pessoais ou trabalho no projeto de pesquisa da plataforma digital para a universidade",
+            "atividade": "Estudar Python / React Native / Fazer Atividades",
             "enviada": false
         },
         {
             "horarioInicial": "10:40",
             "horarioFinal": "12:00",
-            "atividade": "Tempo livre para atividades pessoais ou trabalho no projeto de pesquisa da plataforma digital para a universidade",
+            "atividade": "Estudar Python / React Native / Fazer Atividades",
             "enviada": false
         },
         {
@@ -317,7 +317,7 @@
         {
             "horarioInicial": "15:25",
             "horarioFinal": "18:00",
-            "atividade": "Tempo livre para atividades pessoais ou trabalho no projeto do site full stack para a empresa de marketing digital",
+            "atividade": "Estudar alguma Displina / Descansar",
             "enviada": false
         },
         {
