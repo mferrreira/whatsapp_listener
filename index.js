@@ -29,7 +29,6 @@ client.on('ready', async () => {
 
         if (res !== undefined) {
             try {
-                await chat.lastMessage.delete()
                 await chat.sendMessage(res)
             }
             catch(e) {console.log('não tem mensagem', e)}
@@ -52,10 +51,12 @@ client.on('message_create', async message => {
             let id = message._data.id.remote
 
             res = await routes(inputs, id)
-
-            if (res) await message.reply(res)
+            if (res) {
+                message.reply(res)
+                console.log(res)
+                message.delete(false)
+            }
             
-            message.delete(false)
         }
     } catch (e) {
         console.log('deu erro: \n\n', e)
