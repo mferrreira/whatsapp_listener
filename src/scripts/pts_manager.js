@@ -44,7 +44,6 @@ class Pensamentos {
     }
 
     get() {
-        // Formatar de forma a juntar os pensamentos por dia
         this.pensamentos = load(FILE_NAME)
         let texto_pensamentos = 'Meus pensamentos: \n\n'
         for (let psmt of this.pensamentos) 
@@ -73,3 +72,4 @@ class Pensamentos {
 }
 
 exports.Pensamentos = Pensamentos
+

@@ -20,12 +20,9 @@ client.on('ready', async () => {
     console.log('Client is ready!')
 
     const chat = await client.getChatById('553891446498-1487381077@g.us')
-
-    // todos os horários do cron como "*" indica que a função será checada a cada minuto
-
+    
     cron.schedule('* * * * *', async () => {
-
-        const res = routes('/cronograma', chat)
+        const res = routes('/cronograma get', chat.id._serialized)
 
         if (res !== undefined) {
             try {
