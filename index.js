@@ -20,7 +20,7 @@ client.on('ready', async () => {
     console.log('Client is ready!')
 
     const chat = await client.getChatById('553891446498-1487381077@g.us')
-    
+
     cron.schedule('* * * * *', async () => {
         const res = routes('/cronograma get', chat.id._serialized)
 
@@ -41,16 +41,15 @@ client.on('message_create', async message => {
     try {
         if (message.body[0] === '/') {
 
-            console.log(`--------------------------------------------------\nComando: ${message.body}\n\n`)
+            console.log(`\n\nComando: ${message.body}\n\n`)
 
-            let res
             let inputs = `${message.body}`
             let id = message._data.id.remote
 
-            res = await routes(inputs, id)
+            let res = await routes(inputs, id)
+
             if (res) {
                 message.reply(res)
-                console.log(res)
                 message.delete(false)
             }
             

@@ -7,7 +7,7 @@ const route = {
 }
 
 function routes(inputs, id) {
-
+    
     let input = inputs.split(' ')
     let command = input[0]
 
