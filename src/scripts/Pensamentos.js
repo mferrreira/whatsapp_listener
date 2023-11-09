@@ -1,4 +1,4 @@
-const FILE_NAME = './src/data/pts_manager.json'
+const FILE_NAME = './src/data/pensamentos.json'
 const { save, load } = require('./fs_crud')
 
 /*
@@ -24,8 +24,20 @@ class Pensamentos {
         this.routes = {
             'get': this.get.bind(this),
             'flush': this.flush.bind(this),
-            'add': this.add.bind(this)
+            'add': this.add.bind(this),
+            'help': this.help.bind(this)
         }
+    }
+
+    help() {
+        texto = `    
+            PENSAMENTOS: /pensamentos
+
+            Chame /pensamentos [get] para retornar a lista de pensamentos atual
+            Chame /pensamentos [flush] para retornar a lista de pensamentos atual e restaurá-la
+            Chame /pensamentos [add] [frase] para adicionar um pensamento à lista 
+        `
+        return texto
     }
 
     add(inputs) {

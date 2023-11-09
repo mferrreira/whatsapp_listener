@@ -4,4 +4,7 @@ node_modules/
 .vscode/
 teste.js
 .env
-package-lock.json
+package-lock.jsonw
+src/data/cronograma.json
+src/data/cronograma.json
+src/data/pensamentos.json

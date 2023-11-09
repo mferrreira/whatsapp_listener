@@ -1,4 +1,4 @@
-const { Pensamentos } = require('./src/scripts/pts_manager')
+const { Pensamentos } = require('./src/scripts/Pensamentos')
 const { Cronograma } = require('./src/scripts/Cronograma')
 
 const route = {
@@ -6,8 +6,8 @@ const route = {
     '/cronograma': new Cronograma(),
 }
 
-function routes(inputs, id) {
-    
+function routes(inputs, id) {   
+
     let input = inputs.split(' ')
     let command = input[0]
 

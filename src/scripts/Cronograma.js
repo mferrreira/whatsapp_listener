@@ -11,8 +11,8 @@ const moment = require("moment");
 
     Exemplos de uso:
     - /cronograma get: Retorna a atividade agendada para o horário atual.
-    - /cronograma add segunda 08:00 09:00 Reunião de equipe: Adiciona uma reunião de equipe para segunda-feira, das 08:00 às 09:00.
-    - /cronograma del quarta 14:30: Remove uma atividade agendada para quarta-feira às 14:30.
+    - /cronograma add segunda 0800 0900 Reunião de equipe: Adiciona uma reunião de equipe para segunda-feira, das 08:00 às 09:00.
+    - /cronograma del quarta 1430: Remove uma atividade agendada para quarta-feira às 14:30.
 */
 
 
@@ -45,21 +45,18 @@ class Cronograma {
       'get': this.get.bind(this),
       'add': this.add.bind(this),
       'del': this.del.bind(this),
+      'help': this.help.bind(this)
     };
   }
 
-  get(inputs) {
+  get() {
     const diaAtual = moment().format("dddd");
     const horarioAtual = moment().format("HH:mm");
 
     if (this.cronograma.hasOwnProperty(diaAtual)) {
       const atividadesDoDia = this.cronograma[diaAtual];
       for (const atividade of atividadesDoDia)
-        if (
-          horarioAtual >= atividade.horarioInicial &&
-          horarioAtual <= atividade.horarioFinal &&
-          atividade.enviada == false
-        ) {
+        if (horarioAtual >= atividade.horarioInicial && horarioAtual <= atividade.horarioFinal && atividade.enviada == false) {
           atividade.enviada = true;
           return atividade.atividade;
         }
@@ -75,6 +72,7 @@ class Cronograma {
     const dia = diasTraduzidos[input[2]];
     let horarioInicial = input[3];
     let horarioFinal = input[4];
+
     const atividade = [...input].slice(5, input.length).join(" ");
 
     switch (true) {
@@ -104,9 +102,11 @@ class Cronograma {
         this.cronograma[dia].sort((a, b) => {
           let horaA = moment(a.horarioInicial, "HH:mm");
           let horaB = moment(b.horarioInicial, "HH:mm");
+          
           return horaA.diff(horaB);
         });
         save(this.cronograma, FILE_PATH);
+        
         return "Atividade registrada com sucesso!";
     }
   }
@@ -129,6 +129,21 @@ class Cronograma {
       save(this.cronograma, FILE_PATH);
       return "Atividade removida com sucesso!";
     }
+  }
+
+  help() {
+    return `
+    CRONOGRAMA: /cronograma
+
+    Use /cronograma [get] para obter a atividade agendada para o horário atual.
+    Use /cronograma [add] [dia] [horario inicial] [horario final] [atividade] para adicionar uma atividade ao cronograma.
+    Use /cronograma [del] [dia] [horario inicial] para remover uma atividade do cronograma.
+
+    Exemplos de uso:
+    - /cronograma get: Retorna a atividade agendada para o horário atual.
+    - /cronograma add segunda 0800 0900 Reunião de equipe: Adiciona uma reunião de equipe para segunda-feira, das 08:00 às 09:00.
+    - /cronograma del quarta 1430: Remove uma atividade agendada para quarta-feira às 14:30.
+    `
   }
 
   run(input, id) {
