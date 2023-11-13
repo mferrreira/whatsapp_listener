@@ -13,8 +13,7 @@ const { save, load } = require('./fs_crud')
 class Pensamentos {
 
     allowed_ids = {
-        '555186862138@c.us': 'laura',
-        '553891446498-1487381077@g.us': 'meu_grupo',
+
     }
 
     constructor() {
