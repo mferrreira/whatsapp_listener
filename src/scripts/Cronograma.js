@@ -35,7 +35,7 @@ class Atividade {
 
 class Cronograma {
   allowed_ids = {
-    "553891446498-1487381077@g.us": "meu_grupo",
+      
   };
 
   constructor() {
